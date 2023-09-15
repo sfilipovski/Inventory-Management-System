@@ -951,6 +951,48 @@
             "rid": "win"
           }
         }
+      },
+      "IMS.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19"
+        },
+        "compile": {
+          "bin/placeholder/IMS.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.Domain.dll": {}
+        }
+      },
+      "IMS.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IMS.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.Repository.dll": {}
+        }
+      },
+      "IMS.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IMS.Domain": "1.0.0",
+          "IMS.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.Service.dll": {}
+        }
       }
     }
   },
@@ -2442,10 +2484,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "IMS.Domain/1.0.0": {
+      "type": "project",
+      "path": "../IMS.Domain/IMS.Domain.csproj",
+      "msbuildProject": "../IMS.Domain/IMS.Domain.csproj"
+    },
+    "IMS.Repository/1.0.0": {
+      "type": "project",
+      "path": "../IMS.Repository/IMS.Repository.csproj",
+      "msbuildProject": "../IMS.Repository/IMS.Repository.csproj"
+    },
+    "IMS.Service/1.0.0": {
+      "type": "project",
+      "path": "../IMS.Service/IMS.Service.csproj",
+      "msbuildProject": "../IMS.Service/IMS.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "IMS.Domain >= 1.0.0",
+      "IMS.Repository >= 1.0.0",
+      "IMS.Service >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.19",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.19",
@@ -2484,7 +2544,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Domain\\IMS.Domain.csproj": {
+              "projectPath": "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Domain\\IMS.Domain.csproj"
+            },
+            "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Repository\\IMS.Repository.csproj": {
+              "projectPath": "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Repository\\IMS.Repository.csproj"
+            },
+            "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Service\\IMS.Service.csproj": {
+              "projectPath": "C:\\Users\\Sergey\\Desktop\\InventoryManagementSystem\\IMS\\IMS.Service\\IMS.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

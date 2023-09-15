@@ -75,3 +75,9 @@ C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\obj\Debug\net6.0\r
 C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\obj\Debug\net6.0\IMS.Web.pdb
 C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\obj\Debug\net6.0\IMS.Web.genruntimeconfig.cache
 C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\obj\Debug\net6.0\ref\IMS.Web.dll
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Domain.dll
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Repository.dll
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Service.dll
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Domain.pdb
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Repository.pdb
+C:\Users\Sergey\Desktop\InventoryManagementSystem\IMS\IMS.Web\bin\Debug\net6.0\IMS.Service.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IMS.Repository.Interface
 {
-    internal class IInventoryRepository
+    public interface IInventoryRepository
     {
     }
 }

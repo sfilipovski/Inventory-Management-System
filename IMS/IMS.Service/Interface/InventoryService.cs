@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IMS.Service.Interface
 {
-    internal interface InventoryService
+    public interface InventoryService
     {
     }
 }
